@@ -15,4 +15,5 @@ let ctr = 1;
 
             document.querySelector("body").appendChild(newDivEl)
             ctr = ctr + 1;
+            inputEl.value = "";
         }
