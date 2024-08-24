@@ -34,6 +34,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
     margin: 10px 0px;
+    white-space: nowrap
 }
 
 button:hover {
@@ -49,6 +50,7 @@ div {
     align-items: center;
     width: 600px;
     border: #009c22;
+    word-break: break-word;
 }
 
 #inputandbutton {
