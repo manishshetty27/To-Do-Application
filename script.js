@@ -6,7 +6,12 @@ let ctr = 1;
 
         function addTodo(){
             const inputEl = document.querySelector("input");
-            const value = inputEl.value;
+            const value = inputEl.value.trim();
+
+        if (value === "") {
+                alert("Please enter a todo item!");
+                return; 
+            }
 
             const newDivEl = document.createElement("div");
             newDivEl.setAttribute("id", ctr);
